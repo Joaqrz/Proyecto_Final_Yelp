@@ -4,3 +4,4 @@ numpy
 pyarrow
 fastparquet
 seaborn
+nltk
