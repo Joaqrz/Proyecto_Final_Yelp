@@ -67,9 +67,9 @@ Para desarrollar el proyecto, se utilizarán las siguientes herramientas y tecno
 
 ## KPIs Propuestos
 
-- Aumentar el registro de usuarios nuevos en un 5% respecto al año anterior.
-- Incrementar en un 10% el número de reseñas por restaurante en comparación con el año anterior.
-- Aumentar el promedio de estrellas de los restaurantes en un 5% respecto al año anterior.
+- Aumentar el registro de usuarios nuevos en un 5% respecto al trimestre anterior.
+- Incrementar en un 10% el número de reseñas por restaurante en comparación con el trimestre anterior.
+- Aumentar el promedio de estrellas de los restaurantes en un 5% respecto al trimeste anterior.
 
 ## Equipo de Trabajo
 
