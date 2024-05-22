@@ -1,0 +1,55 @@
+----------------- funcion1 --------------------
+gcloud functions deploy Procesar_Data 
+--runtime python311 
+--region southamerica-east1 
+--trigger-resource "gmaps_data2"
+--memory 2048MB 
+--trigger-event google.storage.object.finalize
+
+gcloud functions deploy Procesar_Data --runtime python311 --region southamerica-east1 --trigger-resource "gmaps_data2" --memory 2048MB --trigger-event google.storage.object.finalize
+
+-------------------- funcion2 ------------------------
+
+gcloud functions deploy Procesar_Data_Sitios_Gmaps 
+--runtime python311 
+--region southamerica-east1 
+--trigger-resource "gmaps_data2"
+--memory 8192MB 
+--trigger-event google.storage.object.finalize
+
+gcloud functions deploy Procesar_Data_Sitios_Gmaps --runtime python311 --region southamerica-east1 --trigger-resource "gmaps_data2" --memory 8192MB --trigger-event google.storage.object.finalize
+
+-------------------- funcion3 ------------------------
+
+gcloud functions deploy Procesar_Data_Business 
+--runtime python311 
+--region southamerica-east1 
+--trigger-resource "gmaps_data2"
+--memory 8192MB 
+--trigger-event google.storage.object.finalize
+
+gcloud functions deploy Procesar_Data_Business --runtime python311 --region southamerica-east1 --trigger-resource "gmaps_data3" --memory 8192MB --trigger-event google.storage.object.finalize
+
+
+-------------------- funcion4 ------------------------
+
+gcloud functions deploy Procesar_Data_reviews_Gmaps 
+--runtime python311 
+--region southamerica-east1 
+--trigger-resource "reviews_gmaps"
+--memory 8192MB 
+--trigger-event google.storage.object.finalize
+
+gcloud functions deploy Procesar_Data_reviews_Gmaps --runtime python311 --region southamerica-east1 --trigger-resource "reviews_gmaps" --memory 8192MB --trigger-event google.storage.object.finalize
+
+
+-------------------- funcion5 ------------------------
+
+gcloud functions deploy Procesar_Data_reviews_Yelp 
+--runtime python311 
+--region southamerica-east1 
+--trigger-resource "reviews_yelp1"
+--memory 8192MB 
+--trigger-event google.storage.object.finalize
+
+gcloud functions deploy Procesar_Data_reviews_Yelp --runtime python311 --region southamerica-east1 --trigger-resource "reviews_yelp1" --memory 8192MB --trigger-event google.storage.object.finalize
