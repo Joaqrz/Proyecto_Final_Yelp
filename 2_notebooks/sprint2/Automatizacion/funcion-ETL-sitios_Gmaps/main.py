@@ -37,6 +37,7 @@ def Transformar_data(data, df_estados):
     # En pruebas se detecto que esta fila estaba dando problemas con la funcion para extraer, asi que se procede a eliminarla
     df_data= df_data[df_data['address'] != "〒10028 New York, Lexington Ave, (New) Ichie Japanese Restaurant"]
 
+    # Funcion para sacar la ciudad y el estado de la direccion
     def Ext_Ciudad_Estado(dir):
         ciudad= "SIN DATO"
         estado= "SIN DATO"     
