@@ -25,12 +25,12 @@ def Transformar_data(data, df_estados):
     df_misc= df_expandido
 
     df_Service_options= df_misc[['gmap_id','Service options']]      # Se crea un df solo las columnas gmap_id y Service Options
-    df_Service_options= df_Service_options.rename(columns={'Service options': 'service_option'}) # cambiar nombre de la columna
+    df_Service_options= df_Service_options.rename(columns={'gmap_id': 'business_id','Service options': 'service_option'}) # cambiar nombre de las columnas
     df_Service_options= df_Service_options.dropna(subset=['service_option']) # Elimina filas con columna 'Service Opciones nulas'
     df_Service_options= df_Service_options.explode('service_option')
 
     df_Planning= df_misc[['gmap_id','Planning']]      # Se crea un df solo las columnas gmap_id y Planning
-    df_Planning= df_Planning.rename(columns={'Planning': 'planning_option'}) # cambiar nombre de la columna
+    df_Planning= df_Planning.rename(columns={'gmap_id': 'business_id', 'Planning': 'planning_option'}) # cambiar nombre de la columna
     df_Planning= df_Planning.dropna(subset=['planning_option']) # Elimina filas con columna 'Service Opciones nulas'
     df_Planning= df_Planning.explode('planning_option')
 
