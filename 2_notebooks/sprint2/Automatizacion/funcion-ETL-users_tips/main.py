@@ -13,6 +13,7 @@ def Transformar_data(data, opcion):
         df_data= df_data.drop(['elite', 'friends', 'compliment_hot', 'compliment_more', 'compliment_profile', 
                                 'compliment_cute', 'compliment_list', 'compliment_note', 'compliment_plain', 
                                 'compliment_cool', 'compliment_funny', 'compliment_writer','compliment_photos'], axis=1)
+        df_data['yelping_since'] = pd.to_datetime(df_data['yelping_since'])        
     
     print(' ........ PROCESO DE TRANSFORMACION COMPLETADO .....')
     return df_data
