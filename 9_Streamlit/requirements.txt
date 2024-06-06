@@ -1,0 +1,3 @@
+folium
+streamlit_folium
+numpy
