@@ -3,17 +3,18 @@ import folium
 from streamlit_folium import folium_static
 import requests
 import numpy as np
+import os
 
-import streamlit as st
-import folium
-from streamlit_folium import folium_static
-import requests
-import numpy as np
+# Obtenemos la ruta absoluta del directorio del script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construimos la ruta al archivo de imagen
+image_path = os.path.join(script_dir, 'src', 'dataminds.png')
 
 # Distribución de columnas para el encabezado y la imagen
 col1, col2 = st.columns([0.1, 0.9])
 with col1:
-    st.image('9_Streamlit/src/dataminds.png')  # Ajusta la ruta según sea necesario
+    st.image(image_path)  # Ajusta la ruta según sea necesario
 with col2:
     st.header("Sistema de Recomendación Geográfico")
 
@@ -25,7 +26,7 @@ with col3:
     with col5:
         tipo_de_comida = st.radio(
             "Seleccione un tipo de comida:",
-            options=['Americana', 'Asiática', 'Francesa', 'India', 'Italiana', 'Mariscos', 'Mediterránea', 'Mexicana'],
+            options=["Americana", "Asiática", "Francés", "Hindú", "Italiana", "Mariscos", "Mediterránea", "Mexicana"],
         )
     with col6:
         estado = st.radio(
