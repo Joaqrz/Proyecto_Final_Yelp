@@ -58,29 +58,23 @@ Desarrollar un sistema de análisis avanzado para mejorar la experiencia culinar
 
 Para desarrollar el proyecto, se utilizarán las siguientes herramientas y tecnologías:
 
-Github: Alojamiento del repositorio.
-Trello: Organización de tareas.
-Visual Studio Code: Software para trabajar localmente.
-
-Google Colab: Servicio para trabajar en la nube de forma colaborativa.
-Google Cloud Platform: Plataforma de computación en la nube con múltiples servicios.
-Google Cloud Storage: Servicio de almacenamiento en la nube.
-Google BigQuery: Servicio para análisis de datos de gran escala.
-Google Cloud Run API: Conjunto de API's para acceder a servicios en la nube.
-
-Power BI: Herramienta para visualización de datos interactiva.
-Python: Lenguaje de programación principal.
-Pandas: Librería para análisis de datos.
-Matplotlib: Librería para visualización de datos.
-Seaborn: Librería para visualización de datos.
-Plotly: Librería para visualización interactiva de datos.
-
-Postman: Herramienta para pruebas y documentación de API.
-Scikit-learn: Librería para aprendizaje automático en Python.
-FastAPI: Framework para la creación de APIs rápidas y eficientes.
-Streamlit: Herramienta para crear aplicaciones web interactivas de forma rápida.
-VADER: Algoritmo para análisis de sentimiento.
-Folium: Librería para visualización de datos geoespaciales.
+- **Github**: Alojamiento del repositorio.
+- **Trello**: Organización de tareas.
+- **Visual Studio Code**: Desarrollo local.
+- **Google Colab**: Colaboración en la nube.
+- **Google Cloud Platform**: Servicios en la nube.
+- **Google Cloud Storage**: Almacenamiento en la nube.
+- **Google BigQuery**: Análisis de datos.
+- **Google Cloud Run API**: Acceso a servicios en la nube.
+- **Power BI**: Visualización de datos.
+- **Python**: Programación.
+- **Pandas, Matplotlib, Seaborn, Plotly**: Análisis y visualización de datos.
+- **Postman**: Pruebas de API.
+- **Scikit-learn**: Aprendizaje automático.
+- **FastAPI**: Creación de APIs.
+- **Streamlit**: Aplicaciones web interactivas.
+- **VADER**: Análisis de sentimiento.
+- **Folium**: Visualización geoespacial.
 
 ## Indicadores Clave de Rendimiento (KPIs)
 
