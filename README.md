@@ -104,9 +104,10 @@ Para desarrollar el proyecto, se utilizarán las siguientes herramientas y tecno
   ``` 
   aumento de prom rating = (rating prom trimestre actual - rating prom trimestre anterior) / rating prom trimestre anterior
   ```
+## Dashboard - KPI's
 ![Dashboard-KPI's](10_images/kips.jpg)
-## Dashboard - Power BI
 
+## Dashboard - Power BI
 ![Dashboard-Panel General](10_images/dashboard.jpg)
 
 En el panel principal de Power BI se ofrece una visión general con información relevante como la cantidad de reseñas, clientes, restaurantes y estados representados. Incluye filtros por año y diversos gráficos para un análisis temporal y geográfico detallado.
@@ -199,7 +200,7 @@ Esta tabla unificada extraída de BigQuery combina información de Yelp y Google
 - `RestaurantsTakeOut`: Indica si el negocio ofrece servicio para llevar.
 - `RestaurantsReservations`: Indica si el negocio acepta reservaciones.
 - `HasTV`: Indica si el negocio tiene televisión disponible.
-
+## Modelo de Machine Learning Deployado
 ![Deploy a través de Streamlit del modelo ML](10_images/ML%20Deployed.jpg)
 ## Equipo de Trabajo
 
