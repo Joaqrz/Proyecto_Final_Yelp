@@ -207,13 +207,6 @@ Esta tabla unificada extraída de BigQuery combina información de Yelp y Google
 - `RestaurantsReservations`: Indica si el negocio acepta reservaciones.
 - `HasTV`: Indica si el negocio tiene televisión disponible.
 
-## Modelo de Machine Learning implementado en FASTAPI
-
-Se implementa en FASTAPI el [sistema de recomendación avanzado](https://api-modelo-nyo7ju5e4q-rj.a.run.app/docs), incluyendo un estado y devolviendo la ubicacion en coordenadas. 
-
-## Modelo de Machine Learning Deployado en Streamlit
-Se implementa en Streamlit la gestión de la API del [sistema avanzado de recomendación de comida](https://deployapi.streamlit.app/)
-![Deploy a través de Streamlit del modelo ML](10_images/ML%20Deployed.jpg)
 ## Equipo de Trabajo
 
 | **Rol** | **Nombre** | **GitHub** | **LinkedIn** |
@@ -251,7 +244,7 @@ Para ejecutar el proyecto, se recomienda utilizar un entorno virtual como `venv`
 ## Enlaces Importantes
 
 - [Documentación](https://drive.google.com/file/d/1cgOD76xLzf3KbxbqLCnUqDvB2uVAoHRF/view)
-- [Dashboard Interactivo](enlace_a_dashboard)
+- [Dashboard Interactivo](https://app.fabric.microsoft.com/view?r=eyJrIjoiNWQ1OTg1MTgtODUxOS00YjEwLWI1NjItNWQ2YjkwMTYyMTdiIiwidCI6IjlkNzhlNzFmLTc1ZWItNDFhOC1hNTJjLTA5NmYzZjJhN2Y0MiJ9)
 - [Modelo de ML Implementado en Streamlit- FASTAPI](https://deployapi.streamlit.app/)
 
 ## Contacto
