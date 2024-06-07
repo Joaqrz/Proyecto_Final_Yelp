@@ -250,10 +250,10 @@ Para ejecutar el proyecto, se recomienda utilizar un entorno virtual como `venv`
 
 ## Enlaces Importantes
 
-- [Diccionario de Datos](enlace_al_diccionario_de_datos)
-- [Documentación Técnica](enlace_a_documentacion)
+- [Documentación](https://drive.google.com/file/d/1cgOD76xLzf3KbxbqLCnUqDvB2uVAoHRF/view)
 - [Dashboard Interactivo](enlace_a_dashboard)
+- [Modelo de ML Implementado en Streamlit- FASTAPI](https://deployapi.streamlit.app/)
 
 ## Contacto
 
-Para preguntas o sugerencias, puedes contactarnos a través de [Correo Electrónico](mailto:cfbn13@hotmail.com;md.trujillo73@gmail.com) o en [LinkedIn](enlace_a_linkedin).
+Para preguntas o sugerencias, puedes contactarnos a través de [Correo Electrónico](mailto:cfbn13@hotmail.com;md.trujillo73@gmail.com)
