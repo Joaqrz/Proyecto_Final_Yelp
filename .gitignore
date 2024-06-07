@@ -42,8 +42,8 @@ ehthumbs.db
 Thumbs.db
 config.json
 1_data/processed/Modelo.pickle
-1_data/processed/Dataset_filtrado.pickle
 .DS_Store
 /Proyecto_Final_Yelp/Estados_Concatenados
 /Proyecto_Final_Yelp/Gmap_business
 /Proyecto_Final_Yelp
+1_data/processed/Dataset_filtrado.pickle
