@@ -47,3 +47,4 @@ config.json
 /Proyecto_Final_Yelp/Gmap_business
 /Proyecto_Final_Yelp
 1_data/processed/Dataset_filtrado.pickle
+.DS_Store
