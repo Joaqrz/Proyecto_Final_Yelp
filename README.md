@@ -5,6 +5,12 @@
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=flat&logo=jupyter)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat&logo=seaborn)
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=flat&logo=powerbi)
+![Streamlit](https://img.shields.io/badge/Streamlit-deploy-brightgreen?style=flat&logo=streamlit&logoColor=red&logoSize=auto)
+![Scikitlearn](https://img.shields.io/badge/Scikitlearn-F7931E?style=flat&logo=scikitlearn&logoColor=white&logoSize=auto)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white&logoSize=auto)
+![Folium](https://img.shields.io/badge/Folium-F8C517?style=flat&logo=folium&logoColor=white&logoSize=auto)
+![GoogleBigQuery](https://img.shields.io/badge/Google%20Big%20Query-669DF6?style=flat&logo=googlebigquery&logoColor=white&logoSize=auto)
+![GoogleCloudStorage](https://img.shields.io/badge/Google%20Cloud%20Storage-AECBFA?style=flat&logo=googlecloudstorage&logoColor=white&logoSize=auto)
 
 
 ![Banner](6_docs/other_docs/Test1.jpg)
