@@ -52,7 +52,7 @@ Desarrollar un sistema de análisis avanzado para mejorar la experiencia culinar
 
 ## Arquitectura del Sistema
 
-![Diagrama Arquitectura](imagen_diagrama_arquitectura.png)
+![Diagrama Arquitectura](10_images/arquitectura.jpg)
 
 ### Herramientas y Tecnologías
 
@@ -104,10 +104,10 @@ Para desarrollar el proyecto, se utilizarán las siguientes herramientas y tecno
   ``` 
   aumento de prom rating = (rating prom trimestre actual - rating prom trimestre anterior) / rating prom trimestre anterior
   ```
-
+![Dashboard-KPI's](10_images/kips.jpg)
 ## Dashboard - Power BI
 
-![Dashboard-Panel General](imagen_dashboard_panel_general.png)
+![Dashboard-Panel General](10_images/dashboard.jpg)
 
 En el panel principal de Power BI se ofrece una visión general con información relevante como la cantidad de reseñas, clientes, restaurantes y estados representados. Incluye filtros por año y diversos gráficos para un análisis temporal y geográfico detallado.
 
@@ -158,7 +158,7 @@ Tabla con información sobre los usuarios de Yelp.
 
 ## Modelo de Machine Learning
 
-![Proceso de Construcción del Modelo](imagen_proceso_construccion_modelo.png)
+![Proceso de Construcción del Modelo](10_images/construccionDelModelo.png)
 
 Se llevó a cabo un proceso exhaustivo de preparación y transformación de datos utilizando BigQuery, donde se unieron todas las tablas relevantes mediante una cuenta de servicio que contaba con una clave de servicio.
 
@@ -200,6 +200,7 @@ Esta tabla unificada extraída de BigQuery combina información de Yelp y Google
 - `RestaurantsReservations`: Indica si el negocio acepta reservaciones.
 - `HasTV`: Indica si el negocio tiene televisión disponible.
 
+![Deploy a través de Streamlit del modelo ML](10_images/ML%20Deployed.jpg)
 ## Equipo de Trabajo
 
 | **Rol** | **Nombre** | **GitHub** | **LinkedIn** |
@@ -242,4 +243,4 @@ Para ejecutar el proyecto, se recomienda utilizar un entorno virtual como `venv`
 
 ## Contacto
 
-Para preguntas o sugerencias, puedes contactarnos a través de [Correo Electrónico](mailto:cfbn13@hotmail.com) o en [LinkedIn](enlace_a_linkedin).
+Para preguntas o sugerencias, puedes contactarnos a través de [Correo Electrónico](mailto:cfbn13@hotmail.com;md.trujillo73@gmail.com) o en [LinkedIn](enlace_a_linkedin).
