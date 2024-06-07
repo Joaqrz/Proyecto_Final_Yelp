@@ -1,75 +1,210 @@
-# Proyecto Final de Ciencia de Datos - Yelp y Google Maps
+# Sistema Avanzado de Recomendación de Restaurantes - Yelp y Google Maps
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=flat&logo=jupyter)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat&logo=seaborn)
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=flat&logo=powerbi)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+
 
 ![Banner](6_docs/other_docs/Test1.jpg)
 
+
+## Índice
+
+1. [Introducción](#introducción)
+2. [Objetivos del Proyecto](#objetivos-del-proyecto)
+    - [Objetivo General](#objetivo-general)
+    - [Objetivos Específicos](#objetivos-específicos)
+3. [Arquitectura del Sistema](#arquitectura-del-sistema)
+4. [Indicadores Clave de Rendimiento (KPIs)](#indicadores-clave-de-rendimiento-kpis)
+    - [KPI 1: Monitorear el comportamiento de nuevos usuarios](#kpi-1-monitorear-el-comportamiento-de-nuevos-usuarios)
+    - [KPI 2: Analizar el nivel de engagement de los usuarios](#kpi-2-analizar-el-nivel-de-engagement-de-los-usuarios)
+    - [KPI 3: Evaluar el nivel de satisfacción de los clientes](#kpi-3-evaluar-el-nivel-de-satisfacción-de-los-clientes)
+5. [Dashboard - Power BI](#dashboard---power-bi)
+6. [Diccionario de Datos](#diccionario-de-datos)
+    - [business](#business)
+    - [Reseñas](#reseñas)
+    - [users_yelp](#users_yelp)
+7. [Modelo de Machine Learning](#modelo-de-machine-learning)
+8. [Proceso de Construcción del Modelo](#proceso-de-construcción-del-modelo)
+9. [Diccionario de Datos para el Modelo](#diccionario-de-datos-para-el-modelo)
+
 ## Introducción
 
-El proyecto final de ciencia de datos tiene como objetivo desarrollar un sistema de análisis avanzado para optimizar la experiencia culinaria para los usuarios de Yelp y Google Maps en diez ciudades principales de Estados Unidos. Se utilizarán técnicas de ciencia de datos para ofrecer recomendaciones personalizadas a los usuarios y proporcionar a los restaurantes análisis detallados de tendencias de consumo y preferencias de ubicación.
+Este proyecto representa un esfuerzo significativo en el análisis y la optimización del servicio de recomendación de restaurantes, fusionando datos de Yelp y Google Maps mediante Power BI para comprender el comportamiento de los usuarios, evaluar el rendimiento de los restaurantes y diseñar un modelo de recomendación eficiente.
 
-## Objetivo General
+## Objetivos del Proyecto
 
-Desarrollar un sistema de recomendaciones personalizadas para mejorar la experiencia del usuario y, al mismo tiempo, proporcionar a los restaurantes información para tomar decisiones estratégicas sobre expansión, servicios y mejora del rendimiento.
+### Objetivo General
 
-## Objetivos Específicos
+Desarrollar un sistema de análisis avanzado para mejorar la experiencia culinaria en Yelp y Google Maps en seis estados de EE. UU. El sistema ofrecerá recomendaciones personalizadas y análisis detallados a restaurantes, mejorando la satisfacción de los clientes y la precisión en decisiones de expansión.
 
-1. **Analizar Mercados Potenciales para la Expansión**:
-   - Identificar áreas con alta demanda y baja competencia en las principales ciudades de Estados Unidos para sugerir oportunidades de expansión de franquicias.
-  
-2. **Desarrollar Análisis de Sentimiento para Mejorar el Servicio**:
-   - Implementar modelos de procesamiento de lenguaje natural (NLP) para analizar reseñas de usuarios y destacar aspectos positivos y áreas de mejora en los restaurantes.
-  
-3. **Crear un Sistema de Recomendaciones Personalizadas**:
-   - Desarrollar un sistema de recomendaciones para usuarios basadas en sus reseñas y preferencias previas.
-  
-4. **Asegurar la Calidad de los Datos**:
-   - Establecer procesos rigurosos para la recopilación y limpieza de datos provenientes de Yelp y Google Maps.
-  
-5. **Exploración y Análisis de Datos de Reseñas**:
-   - Realizar análisis exploratorio continuo para identificar tendencias emergentes y cambios en el comportamiento del consumidor.
-  
-6. **Implementar un Modelo Predictivo para el Crecimiento del Negocio**:
-   - Desarrollar un modelo predictivo para prever el crecimiento potencial de negocios en nuevas locaciones.
-  
-7. **Desarrollar un Dashboard Interactivo**:
-   - Crear un dashboard para visualizar datos en tiempo real y ayudar a los gerentes de restaurantes a tomar decisiones basadas en datos.
+### Objetivos Específicos
 
-## Alcance del Proyecto
+1. Analizar mercados potenciales para la expansión.
+2. Desarrollar un análisis de sentimiento para mejorar el servicio.
+3. Crear un sistema de recomendaciones personalizadas.
+4. Asegurar la calidad de los datos.
+5. Explorar y analizar datos de reseñas.
+6. Implementar un modelo predictivo.
+7. Desarrollar un dashboard interactivo.
 
-- **Temporal**: El proyecto se desarrollará en seis semanas con un enfoque ágil utilizando sprints de dos semanas.
-- **Geográfico**: El proyecto se centrará en reseñas de restaurantes en diez ciudades principales de Estados Unidos con alta actividad en Yelp y Google Maps.
-- **Impacto**: Se espera que el proyecto mejore la toma de decisiones estratégicas para la expansión y optimice la experiencia del cliente en la industria gastronómica.
+## Arquitectura del Sistema
 
-## Stack Tecnológico
+![Diagrama Arquitectura](imagen_diagrama_arquitectura.png)
 
+### Herramientas y Tecnologías
 
 Para desarrollar el proyecto, se utilizarán las siguientes herramientas y tecnologías:
 
-- **Github**: Alojamiento del repositorio.
-- **Trello**: Organización de tareas.
-- **Visual Studio Code**: Software para trabajar localmente.
-- **Google Colab**: Servicio para trabajar en la nube de forma colaborativa.
-- **Google Cloud Platform**: Plataforma de computación en la nube con múltiples servicios.
-- **Google Cloud Storage**: Servicio de almacenamiento en la nube.
-- **Google Big Query**: Servicio para análisis de datos de gran escala.
-- **Google Cloud API's**: Conjunto de API's para acceder a servicios en la nube.
-- **Power BI**: Herramienta para visualización de datos interactiva.
-- **Python**: Lenguaje de programación principal.
-- **Pandas, Matplotlib, Seaborn, Plotly**: Librerías para análisis y visualización de datos.
-- **Azure Databricks, Spark**: Herramientas para procesamiento de datos.
-- **Postman**: Herramienta para pruebas y documentación de API.
+Github: Alojamiento del repositorio.
+Trello: Organización de tareas.
+Visual Studio Code: Software para trabajar localmente.
 
-## KPIs Propuestos
+Google Colab: Servicio para trabajar en la nube de forma colaborativa.
+Google Cloud Platform: Plataforma de computación en la nube con múltiples servicios.
+Google Cloud Storage: Servicio de almacenamiento en la nube.
+Google BigQuery: Servicio para análisis de datos de gran escala.
+Google Cloud Run API: Conjunto de API's para acceder a servicios en la nube.
 
-- Aumentar el registro de usuarios nuevos en un 5% respecto al trimestre anterior.
-- Incrementar en un 10% el número de reseñas por restaurante en comparación con el trimestre anterior.
-- Aumentar el promedio de estrellas de los restaurantes en un 5% respecto al trimeste anterior.
+Power BI: Herramienta para visualización de datos interactiva.
+Python: Lenguaje de programación principal.
+Pandas: Librería para análisis de datos.
+Matplotlib: Librería para visualización de datos.
+Seaborn: Librería para visualización de datos.
+Plotly: Librería para visualización interactiva de datos.
+
+Postman: Herramienta para pruebas y documentación de API.
+Scikit-learn: Librería para aprendizaje automático en Python.
+FastAPI: Framework para la creación de APIs rápidas y eficientes.
+Streamlit: Herramienta para crear aplicaciones web interactivas de forma rápida.
+VADER: Algoritmo para análisis de sentimiento.
+Folium: Librería para visualización de datos geoespaciales.
+
+## Indicadores Clave de Rendimiento (KPIs)
+
+### KPI 1: Monitorear el comportamiento de nuevos usuarios
+
+- **Descripción:** Este monitoreo ayuda a medir el crecimiento del negocio y el engagement de los usuarios.
+- **Meta:** Aumentar el registro de nuevos usuarios en más de 5% vs el trimestre anterior.
+- **Cálculo:** 
+  ``` 
+  aumento de usuarios = (usuarios trimestre Actual - Usuarios trimestre anterior) / usuarios trimestre anterior
+  ```
+
+### KPI 2: Analizar el nivel de engagement de los usuarios
+
+- **Descripción:** Comprender el engagement de los usuarios indica la popularidad de los restaurantes y la lealtad de los clientes.
+- **Meta:** Aumentar en al menos 10% el número de reseñas del restaurante vs el trimestre anterior.
+- **Cálculo:** 
+  ``` 
+  aumento de reseñas = (reseñas trimestre Actual - reseñas trimestre anterior) / reseñas trimestre anterior
+  ```
+
+### KPI 3: Evaluar el nivel de satisfacción de los clientes
+
+- **Descripción:** La satisfacción del cliente refleja la calidad del servicio y la experiencia de los consumidores.
+- **Meta:** Aumentar la calificación en estrellas del negocio en al menos 5% vs el trimestre anterior.
+- **Cálculo:** 
+  ``` 
+  aumento de prom rating = (rating prom trimestre actual - rating prom trimestre anterior) / rating prom trimestre anterior
+  ```
+
+## Dashboard - Power BI
+
+![Dashboard-Panel General](imagen_dashboard_panel_general.png)
+
+En el panel principal de Power BI se ofrece una visión general con información relevante como la cantidad de reseñas, clientes, restaurantes y estados representados. Incluye filtros por año y diversos gráficos para un análisis temporal y geográfico detallado.
+
+## Diccionario de Datos
+
+### business
+
+Esta tabla contiene información relacionada con los restaurantes de Google Maps y Yelp.
+
+- `business_id`: Identificación única del negocio.
+- `name`: Nombre del negocio.
+- `city`: Ciudad donde está ubicado el negocio.
+- `state`: Estado o región donde está ubicado el negocio.
+- `latitude`: Coordenada de latitud de la ubicación del negocio.
+- `longitude`: Coordenada de longitud de la ubicación del negocio.
+- `stars`: Calificación o puntuación del negocio.
+- `price`: Rango de precios del negocio.
+- `platform`: Plataforma de origen del dato (1: Google, 2: Yelp).
+
+### Reseñas
+
+Tabla que contiene información sobre las reviews de los usuarios.
+
+- `business_id`: Identificación única del negocio.
+- `user_id`: Identificación única del usuario que realiza la reseña.
+- `date`: Fecha de la reseña.
+- `stars`: Calificación dada en la reseña.
+- `useful`: Número de votos útiles.
+- `funny`: Número de votos graciosos.
+- `cool`: Número de votos cool.
+- `text`: Texto de la reseña.
+- `platform`: Plataforma de origen del dato (1: Google, 2: Yelp).
+
+### users_yelp
+
+Tabla con información sobre los usuarios de Yelp.
+
+- `user_id`: Identificación única del usuario.
+- `name`: Nombre del usuario.
+- `review_count`: Número de reseñas realizadas.
+- `yelping_since`: Fecha de inicio en Yelp.
+- `useful`: Número de votos útiles.
+- `funny`: Número de votos graciosos.
+- `cool`: Número de votos cool.
+- `fans`: Número de fans.
+- `average_stars`: Calificación promedio de las reseñas del usuario.
+- `Año`: Año desde que están activos los usuarios (columna calculada).
+
+## Modelo de Machine Learning
+
+![Proceso de Construcción del Modelo](imagen_proceso_construccion_modelo.png)
+
+Se llevó a cabo un proceso exhaustivo de preparación y transformación de datos utilizando BigQuery, donde se unieron todas las tablas relevantes mediante una cuenta de servicio que contaba con una clave de servicio.
+
+### Proceso de Construcción del Modelo
+
+1. **Obtención de Datos:** Unificación de las tablas más relevantes.
+2. **Limpieza y Transformación de Datos:** Validación de categorías, eliminación de atributos no compartidos, manejo de valores nulos, y ajustes de coordenadas.
+3. **Verificación de Datos:** Verificación de datos en las columnas de tipo de comida y estado.
+4. **Feature Engineering:** Cálculo de la densidad de restaurantes por estado y distancia a restaurantes populares.
+5. **Preparación del Modelo:** Escalado de variables numéricas, implementación del modelo K-means.
+6. **Clusterización:** Creación de clusters según su tipo de comida y estado.
+7. **Visualización:** Mapa interactivo mostrando los centroides del modelo usando la librería Folium.
+
+## Diccionario de Datos para el Modelo
+
+Esta tabla unificada extraída de BigQuery combina información de Yelp y Google Maps.
+
+- `business_id`: Identificación única del negocio.
+- `business_name`: Nombre del negocio.
+- `city`: Ciudad donde está ubicado el negocio.
+- `state`: Estado o región donde está ubicado el negocio.
+- `latitude`: Coordenada de latitud de la ubicación del negocio.
+- `longitude`: Coordenada de longitud de la ubicación del negocio.
+- `business_stars`: Calificación o puntuación del negocio.
+- `price`: Rango de precios del negocio.
+- `business_platform`: Plataforma de origen del negocio.
+- `review_user_id`: Identificación única del usuario que realiza la reseña.
+- `review_date`: Fecha y hora de la reseña.
+- `review_stars`: Calificación dada en la reseña.
+- `review_text`: Texto de la reseña.
+- `review_platform`: Plataforma desde la cual se realizó la reseña.
+- `category_name`: Nombre de la categoría del negocio.
+- `RestaurantsDelivery`: Indica si el negocio ofrece servicio de entrega a domicilio.
+- `OutdoorSeating`: Indica si el negocio cuenta con asientos al aire libre.
+- `BusinessAcceptsCreditCards`: Indica si el negocio acepta tarjetas de crédito.
+- `GoodForKids`: Indica si el negocio es apropiado para niños.
+- `RestaurantsPriceRange2`: Rango de precios de los restaurantes.
+- `RestaurantsTakeOut`: Indica si el negocio ofrece servicio para llevar.
+- `RestaurantsReservations`: Indica si el negocio acepta reservaciones.
+- `HasTV`: Indica si el negocio tiene televisión disponible.
 
 ## Equipo de Trabajo
 
@@ -113,4 +248,4 @@ Para ejecutar el proyecto, se recomienda utilizar un entorno virtual como `venv`
 
 ## Contacto
 
-Para preguntas o sugerencias, puedes contactarnos a través de [Correo Electrónico](mailto:correo@ejemplo.com) o en [LinkedIn](enlace_a_linkedin).
+Para preguntas o sugerencias, puedes contactarnos a través de [Correo Electrónico](mailto:cfbn13@hotmail.com) o en [LinkedIn](enlace_a_linkedin).
