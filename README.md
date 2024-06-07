@@ -218,7 +218,7 @@ Se implementa en Streamlit la gestión de la API del [sistema avanzado de recome
 
 | **Rol** | **Nombre** | **GitHub** | **LinkedIn** |
 |:---:|:---:|---|---|
-| Data Analyst | Joaquin Rodríguez | [Joaqrz](https://github.com/Joaqrz) | [LinkedIn](enlace_a_linkedin) |
+| Data Analyst | Joaquin Rodríguez | [Joaqrz](https://github.com/Joaqrz) | [joaquínRodriguez](https://www.linkedin.com/in/joaqu%C3%ADn-ismael-rodriguez-09b533252/) |
 | Data Engineer | Nelvin Velazco | [nelvinvelazco](https://github.com/nelvinvelazco) | [nelvinvelazco](https://www.linkedin.com/in/nelvinvelazco/) |
 | Data Engineer | Cristian Barreto | [CristianBarreto08](https://github.com/CristianBarreto08) | [cristian-barreto13](https://www.linkedin.com/in/cristian-barreto13/) |
 | Data Scientist | Manuel Trujillo | [mdtrujillo73](https://github.com/mdtrujillo73) | [mdtrujillo73](https://www.linkedin.com/in/mdtrujillo73/) |
