@@ -213,10 +213,10 @@ Esta tabla unificada extraída de BigQuery combina información de Yelp y Google
 | **Rol** | **Nombre** | **GitHub** | **LinkedIn** |
 |:---:|:---:|---|---|
 | Data Analyst | Joaquin Rodríguez | [Joaqrz](https://github.com/Joaqrz) | [LinkedIn](enlace_a_linkedin) |
-| Data Engineer | Nelvin Velazco | [nelvinvelazco](https://github.com/nelvinvelazco) | [LinkedIn](enlace_a_linkedin) |
+| Data Engineer | Nelvin Velazco | [nelvinvelazco](https://github.com/nelvinvelazco) | [LinkedIn](https://www.linkedin.com/in/nelvinvelazco/) |
 | Data Engineer | Cristian Barreto | [CristianBarreto08](https://github.com/CristianBarreto08) | [cristian-barreto13](https://www.linkedin.com/in/cristian-barreto13/) |
 | Data Scientist | Manuel Trujillo | [mdtrujillo73](https://github.com/mdtrujillo73) | [mdtrujillo73](https://www.linkedin.com/in/mdtrujillo73/) |
-| Data Scientist | Diego Vélez | [GitHub](enlace_a_github) | [LinkedIn](enlace_a_linkedin) |
+| Data Scientist | Diego Vélez | [diegoavelez](https://github.com/diegoavelez) | [LinkedIn](https://www.linkedin.com/in/diegoavelezm) |
 
 ## Estructura del Repositorio
 
