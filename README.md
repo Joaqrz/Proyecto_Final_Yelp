@@ -206,7 +206,13 @@ Esta tabla unificada extraída de BigQuery combina información de Yelp y Google
 - `RestaurantsTakeOut`: Indica si el negocio ofrece servicio para llevar.
 - `RestaurantsReservations`: Indica si el negocio acepta reservaciones.
 - `HasTV`: Indica si el negocio tiene televisión disponible.
-## Modelo de Machine Learning Deployado
+
+## Modelo de Machine Learning implementado en FASTAPI
+
+Se implementa en FASTAPI el [sistema de recomendación avanzado](https://api-modelo-nyo7ju5e4q-rj.a.run.app/docs), incluyendo un estado y devolviendo la ubicacion en coordenadas. 
+
+## Modelo de Machine Learning Deployado en Streamlit
+Se implementa en Streamlit la gestión de la API del [sistema avanzado de recomendación de comida](https://deployapi.streamlit.app/)
 ![Deploy a través de Streamlit del modelo ML](10_images/ML%20Deployed.jpg)
 ## Equipo de Trabajo
 
